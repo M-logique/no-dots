@@ -1,9 +1,12 @@
 # NoDots
 
-![NoDots Logo](./.github/images/logo.jpg)
+<div align="center">
+<img src="./.github/images/logo.jpg" alt="NoDots Logo" width="200"/>
+</div>
 
+<div align="center">
 A simple Telegram bot that removes dots from messages. Made with no concept in mind.
-
+</div>
 
 ## Setup
 
