@@ -1,3 +1,9 @@
+## [1.0.1](https://github.com/M-logique/no-dots/compare/v1.0.0...v1.0.1) (2025-11-25)
+
+### 🐛 Bug Fixes
+
+* fix permissions on Release ([016e93e](https://github.com/M-logique/no-dots/commit/016e93ed9d722f672475fde02f034b8c30008777))
+
 ## 1.0.0 (2025-11-25)
 
 ### 🐛 Bug Fixes
