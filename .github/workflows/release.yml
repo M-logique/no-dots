@@ -29,8 +29,6 @@ jobs:
         run: |
           npm i --save-dev conventional-changelog-conventionalcommits
           npm install --save-dev semantic-release @semantic-release/changelog @semantic-release/git @semantic-release/github @semantic-release/exec @semantic-release/gitlab @semantic-release/npm @semantic-release/release-notes-generator @semantic-release/git @semantic-release/changelog @semantic-release/exec 
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       
       - name: Move Binary files to root of dist
         run: |
@@ -43,4 +41,4 @@ jobs:
           cp ./.github/.releaserc.js .
           npx semantic-release --debug
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
