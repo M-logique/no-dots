@@ -3,6 +3,7 @@ name: Release
 on:
   workflow_call:
 
+permissions: write-all
 
 jobs:
   release:
