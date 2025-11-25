@@ -1,5 +1,4 @@
-# NoDots
-
+<h1 align="center">NoDots</h1>
 <div align="center">
 <img src="./.github/images/logo.jpg" alt="NoDots Logo" width="200"/>
 </div>
